@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: #111;
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+  }
+  .profile-pic {
+    width: 100px; height: 100px; border-radius: 50%;
+    background: #333; margin-bottom: 20px;
+  }
+  h1 { color: white; font-size: 22px; margin-bottom: 30px; }
+  .link-list { width: 100%; max-width: 400px; }
+  .link-btn {
+    display: flex; align-items: center; gap: 15px;
+    background: #222; color: white; text-decoration: none;
+    padding: 16px 20px; border-radius: 12px; margin-bottom: 14px;
+    font-size: 16px; transition: opacity 0.2s;
+  }
+  .link-btn:active { opacity: 0.7; }
+  .link-btn img { width: 28px; height: 28px; }
+</style>
+</head>
+<body>
+
+  <div class="link-list">
+    <a class="link-btn" href="https://facebook.com" target="_blank">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook">
+      Facebook
+    </a>
+    <a class="link-btn" href="https://instagram.com" target="_blank">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram">
+      Instagram
+    </a>
+    <a class="link-btn" href="https://tik.porn" target="_blank">
+      <img src="https://cdn.wapka.org/00hile/07b1549da0049c5dc15c9b3ba22cc221/tiktok.jpeg" alt="TikPorn">
+      TikPorn
+    </a>
+  </div>
+
+</body>
+</html>
